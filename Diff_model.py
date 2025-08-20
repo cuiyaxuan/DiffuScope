@@ -34,7 +34,7 @@ def gcn_loss(preds, labels, mu, logvar, n_nodes, norm):
     return cost + KLD
 
 
-class Sedr:
+class DiffScope:
     def __init__(
             self,
             X,

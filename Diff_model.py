@@ -5,7 +5,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from sklearn.cluster import KMeans
-from .SEDR_module import SEDR_module, SEDR_impute_module
+from .Diff_module import SEDR_module, SEDR_impute_module
 from tqdm import tqdm
 
 
